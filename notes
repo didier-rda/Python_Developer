@@ -1,0 +1,124 @@
+# ***************************************************************************************************** #
+#                                                                                                       #
+#                                                                  :::::       :::::        :::         #
+#    notes                                                        +:+:+:+     +:+:+:+     :+:+:+        #
+#                                                                +:+  :+:    +:+   :+:   +:+ +:+        #
+#    By: rdidier- <didier.rda@gmail.com>                        #+#  +:+    #+#   +:+   +#+  +:+        #
+#                                                              #+# #+#     #+#   #+#   +#+#+#+#+        #
+#    Created: 2019/11/19 11:49:24 by rdidier-                 #+#   #+#   #+#   #+#   #+#    #+#        #
+#    Updated: 2019/11/20 01:53:47 by rdidier-                ###   ###   ########    ###     ###.br     #
+#                                                                                                       #
+# ***************************************************************************************************** #
+
+#Steps to learning any languge:
+    *Terms
+    *Data Types
+    *Actions
+    *Best Pratices
+
+#Data Types
+
+    *Fundamental Data Types
+         -int
+         -float
+         -bool
+
+         -str
+            long_string = '''
+            WOW
+            0 0
+            ---
+            '''
+            [start:stop:stepover]
+            strig[::-1] print reverse
+         -list
+            --adding:
+                .insert(index, object)
+                .extend(list)
+                .index(value, start, end), return the v-index, you may choose where start-end to looking.
+                . to made a copy: list.copy() or lista2 -lista1[:], if no it will behave as a C pointer.
+            --removing:
+                .pop(index)
+                .remove(value)
+                .clear(void)
+            --others:
+                .count('d'), ocurrances in list
+                .sort    order the list and alter they values order
+                sorted() order the list and return another string
+
+                
+         -tuple
+            -Geocordenates
+         -set
+            my_set.difference(your_set) just show the diff
+            .discard()
+            .difference_update() update my_set with the diff
+            .intersection()
+            .isdisjoint()
+            .issubset()
+            .issuperset()
+            .union()
+         -dict
+            --key must be unique
+            .get(key, value_to_return_ifno) value or None if not exists
+            .values()
+            .keys()
+            .clear()
+            .copy()
+            .pop(key) remove the (key, value)
+            .update({key:new_item})
+
+         -complex
+    
+    obs: bin() return the binary representation
+    ex. 
+        print(bin(5))
+        >0b101
+        print(int('0b101', 2))
+        >5
+    
+    *Classes  
+        (custom types)
+         
+    *Specialized Data Types
+        (extra boosts)
+
+    *None
+
+#Expressions vs Statements
+    count = iq / 5
+
+    all the line is a statement (line of code that performer a comand)
+    iq / 5 is the expression (generate a value)
+
+#Augmented assigment operator (operador de atribuição de incremento)
+    += , -= etc
+
+#Conditional
+    *Ternary Operator
+        (condition_if_true) if (condition) (else) (condition_if_else)
+
+#Short Circuiting
+    When te logic operator (and, or) is satisfied by the first condition and no need to process the next condition
+#Logical Operator
+    diff == and is
+    is se ocupa mesmo lugar na memória
+
+#Break, continue and pass
+
+Continue recall the iterator
+
+#Arguments and parameters
+
+Args: values passed to the function (call the function)
+Params: values passed to the function (define the function)
+ 
+#Developer Fundamentals
+    good dev know how data structure to use
+    *Clean
+    *Readability
+    *Predictability
+    *DRY
+        (do not repeat yourself)
+
+
