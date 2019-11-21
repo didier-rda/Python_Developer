@@ -6,7 +6,7 @@
 #    By: rdidier- <didier.rda@gmail.com>                        #+#  +:+    #+#   +:+   +#+  +:+        #
 #                                                              #+# #+#     #+#   #+#   +#+#+#+#+        #
 #    Created: 2019/11/19 11:49:24 by rdidier-                 #+#   #+#   #+#   #+#   #+#    #+#        #
-#    Updated: 2019/11/20 01:53:47 by rdidier-                ###   ###   ########    ###     ###.br     #
+#    Updated: 2019/11/20 23:04:22 by rdidier-                ###   ###   ########    ###     ###.br     #
 #                                                                                                       #
 # ***************************************************************************************************** #
 
@@ -121,4 +121,37 @@ Params: values passed to the function (define the function)
     *DRY
         (do not repeat yourself)
 
+#Docstrings
+    add info to your function:
+    
+    def test(a):
+    '''
+    Info: This func. tests and print param a
+    '''
+    print(a)
+   
+    now info can be acessed by:
+    help(test)
+    test.__doc__
+
+#*args and **kwargs
+*args :can receive as many args as are being called.
+
+**kwargs : receive as many items (key = value) as are being called.
+
+Rule: corret order is params, *args, default params, **kwargs
+
+#Scope
+    *1 -  Start with local
+    *2 - Parent local?
+    *3 - Global
+    *4 - Built in python functions.
+
+#Global Keyword
+in python you can use a global variable in a specific scope by using the keyword: global
+
+global x
+
+#Why do need scope?
+memory is not finite, we do have to adminstate.
 
