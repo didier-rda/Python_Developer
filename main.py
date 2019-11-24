@@ -83,8 +83,10 @@ say_hello('Timmy')
 
 
 def sum_values(n1, n2):
+
     def another_func(n1, n2):
         return n1 + n2
+
     return another_func(n1, n2)
 
 
@@ -93,8 +95,10 @@ print(total)
 
 
 def sum_values_b(n1, n2):
+
     def another_func(n1, n2):
         return n1 + n2
+
     return another_func(n1, n2)
 
 
