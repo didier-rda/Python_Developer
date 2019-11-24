@@ -33,7 +33,7 @@
             strig[::-1] print reverse
          -list
             --adding:
-                .insert(index, object)
+                .insert (index, object)
                 .extend(list)
                 .index(value, start, end), return the v-index, you may choose where start-end to looking.
                 . to made a copy: list.copy() or lista2 -lista1[:], if no it will behave as a C pointer.
