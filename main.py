@@ -33,8 +33,6 @@ print(a is b)
 print(a == b)
 
 # for loop in dict
-# for item in user:
-# print(item)
 for item in user.items():
     key, value = item
     print(key, value)
