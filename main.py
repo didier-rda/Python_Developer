@@ -1,4 +1,3 @@
-#%%
 # list behave as a C pointer
 lista = ['a', 'c', 'b', 'x']
 new_list = lista
@@ -7,7 +6,6 @@ print(new_list)
 
 # list unpacking
 a, b, *other, c = [1, 2, 3, 4, 5, 6, 7, 8]
-
 print(a)
 print(b)
 print(other)
@@ -20,12 +18,14 @@ user = {
     'age': 20
 }
 
-user2 = dict(name ='Jones')
+user2 = dict(name='Jones')
 
-# set 
+# set
 my_set = {1, 2, 3}
 
+
 print(1 in my_set)
+
 
 a = [1, 2, 3]
 b = a
@@ -205,7 +205,6 @@ print(a4)  # <built-im function sum>, 1
 
 # Global Keyword
 total = 0
-
 
 
 def count():
