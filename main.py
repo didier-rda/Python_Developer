@@ -1,3 +1,4 @@
+#%%
 # list behave as a C pointer
 lista = ['a', 'c', 'b', 'x']
 new_list = lista
@@ -19,9 +20,9 @@ user = {
     'age': 20
 }
 
-user2 = dict(name='Jones')
+user2 = dict(name ='Jones')
 
-# set
+# set 
 my_set = {1, 2, 3}
 
 print(1 in my_set)
@@ -206,6 +207,7 @@ print(a4)  # <built-im function sum>, 1
 total = 0
 
 
+
 def count():
     global total
     total += 1
@@ -232,3 +234,13 @@ def outer():
 
 
 outer()
+
+
+# %%
+
+
+# %%
+print("a")
+# %%
+print("a")
+# %%
