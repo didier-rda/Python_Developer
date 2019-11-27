@@ -10,7 +10,6 @@ print(a)
 print(b)
 print(other)
 print(c)
-
 # dictionary declarations
 user = {
     'basket': [1, 2],
