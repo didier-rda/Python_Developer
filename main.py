@@ -241,4 +241,41 @@ outer()
 print("a")
 # %%
 print("a")
-# %%
+
+# OOP
+
+
+class BigObject:  # class (planta de uma casa)
+    # code
+    pass
+
+
+obj1 = BigObject()  # instanciate
+obj2 = BigObject()  # instanciate
+obj3 = BigObject()  # instanciate
+obj4 = BigObject()  # instanciate
+print(type(BigObject))
+print(type(obj1))
+
+
+# object for HP game
+
+
+class PlayerCharacter:
+    def __init__(self, name, age):
+        self.name = name  # atributes
+        self.age = age
+
+    def run(self):
+        print('run')
+        return 'done'
+
+
+player1 = PlayerCharacter('Rodrigo', 26)
+player2 = PlayerCharacter('Camy', 16)
+player2.attack = 50
+print(player1.name)
+print(player1)
+
+print(player2.attack)
+#  print(player1.attack)

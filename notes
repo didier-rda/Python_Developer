@@ -155,3 +155,21 @@ global x
 #Why do need scope?
 memory is not finite, we do have to adminstate.
 
+#OOP
+
+everthing in pytohn is a object
+class have methods and atributes
+struture code simplify
+
+smalls objs
+
+diferent people in diferent parts
+a way to think or code.
+milions of code.
+
+carro.frente()
+carro.curvaesquerda()
+<class 'list'>
+
+class
+
