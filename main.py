@@ -262,11 +262,14 @@ print(type(obj1))
 
 
 class PlayerCharacter:
-    def __init__(self, name, age):
-        self.name = name  # atributes
-        self.age = age
+    membership = True  # Class Object Attribute
 
-    def run(self):
+    def __init__(self, name, age):
+        if (self.membership):
+            self.name = name  # atributes
+            self.age = age
+
+    def run(self):  # method
         print('run')
         return 'done'
 
@@ -278,4 +281,25 @@ print(player1.name)
 print(player1)
 
 print(player2.attack)
+
+
+class PlayerChar2:
+    membership = True
+
+    def __init__(self, name='anonymous', age=0):
+        if(age > 18):  # check before instaciate
+            self.name = name
+            self.age = age
+
+    def shout(self):
+        print(f'my name is {self.name}')
+
+
+player3 = PlayerChar2()
+player4 = PlayerChar2('rod', 19)  # if age < 18 -> AttributeError, else: print.
+player4.attack = 50
+
+print(player4.shout())
+
+
 #  print(player1.attack)
