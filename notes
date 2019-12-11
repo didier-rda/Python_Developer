@@ -159,5 +159,28 @@ carro.frente()
 carro.curvaesquerda()
 <class 'list'>
 
-class
+#@classmethod
+use when need to lead with the atributes
+
+#@staticmethod
+use when doesen't need to lead with atributes
+
+#Developer Fundamentals
+test your assumptions
+
+# 4 pillars of OOP
+encapsulate
+abstraction - hide how is implimented
+inheritance (herança)
+    -Herdar clases
+#Private vs Public variable
+in Python don't have private variables.
+
+a convention in python:
+private variable atribute
+
+self._name = name
+self._age = age
+
+#Inheritance - Herança de classe
 
