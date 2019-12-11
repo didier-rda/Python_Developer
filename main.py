@@ -361,3 +361,19 @@ archer1 = Archer('Robin', 100)
 
 print(wizard1.sign_in())
 wizard1.attack()
+
+isinstance(wizard1, Wizard)
+isinstance(wizard1, User)
+isinstance(wizard1, object)
+
+#  Polymorphism
+
+
+def player_attack(char):
+    char.attack()
+
+
+player_attack(wizard1)
+
+for char in [wizard1, archer1]:
+    char.attack()
